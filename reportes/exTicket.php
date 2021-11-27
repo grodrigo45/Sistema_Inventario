@@ -30,11 +30,11 @@ $rspta = $venta->ventacabecera($_GET["id"]);
 $reg=$rspta->fetch_object();
 
 //establecemos los datos de la empresa
-$empresa = "Tecnology S.A.C.";
-$documento = "102589524";
-$direccion = "calle los alpes 120";
-$telefono = "854715648";
-$email = "angelinos257@gmail.com";
+$empresa = "Mi Tiendita";
+$documento = "20506090-5";
+$direccion = "Avenida España";
+$telefono = "703502523";
+$email = "mitiendita@gmail.com";
 	 ?>
 <div class="zona_impresion">
 	<!--codigo imprimir-->
@@ -112,10 +112,10 @@ $email = "angelinos257@gmail.com";
 			<td colspan="3" align="center">¡Gracias por su compra!</td>
 		</tr>
 		<tr>
-			<td colspan="3" align="center">AngshelinoWeb</td>
+			<td colspan="3" align="center">Mi Tiendita</td>
 		</tr>
 		<tr>
-			<td colspan="3" align="center">Arequipa - Peru</td>
+			<td colspan="3" align="center">El Salvador-Sonsonate</td>
 		</tr>
 	</table>
 	<br>
