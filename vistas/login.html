@@ -1,64 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>T&T MULTISERVICIOS</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="../public/css/bootstrap.min.css">
-  <!-- Font Awesome -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tienda</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <link rel="stylesheet" href="../public/css/font-awesome.min.css">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
-  <link rel="stylesheet" href="../public/css/_all-skins.min.css">
-  <!-- Morris chart --><!-- Daterange picker -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../public/css/_all-skins.min.css">
+
+    <link rel="stylesheet" href="../public/css/login.css">
+
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="../../index2.html"><b>T&T</b><B>INVENTARIO</B></a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="login-box-body">
-    <p class="login-box-msg">Ingresa tus datos de Acceso</p>
 
-    <form  method="post" id="frmAcceso">
-      <div class="form-group has-feedback">
-        <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
-        <span class="fa fa-user form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Password">
-        <span class="fa fa-key form-control-feedback"></span>
-      </div>
-      <div class="row">
-        <div class="col-xs-8">
-        
+<body class="">
+    <div class="container" id="container">
+        <!-- <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>Create Account</h1> -->
+        <!-- <div class="social-container">
+          <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div> -->
+        <!-- <span>or use your email for registration</span>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Sign Up</button>
+      </form> -->
+        <!-- </div> -->
+        <div class="form-container sign-in-container">
+            <form method="post" id="frmAcceso">
+                <h1>Iniciar Sesion</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>Ingrese sus credenciales por favor</span>
+                <input type="text" id="logina" name="logina" class="form-control" placeholder="Usuario">
+
+
+                <input type="password" id="clavea" name="clavea" class="form-control" placeholder="Password">
+                <a href="#">Olvidaste tu contrasena?</a>
+                <button type="submit">Iniciar Sesion</button>
+            </form>
         </div>
-        <!-- /.col -->
-        <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1>Bienvenido a tu tienda!</h1>
+                    <p>Recuerda que un buen trato hacia las personas hace mejor a tu negocio</p>
+                </div>
+            </div>
         </div>
-        <!-- /.col -->
-      </div>
-    </form>
+    </div>
 
-  </div>
-  <!-- /.login-box-body -->
-</div>
-<!-- /.login-box -->
+    <footer>
+        <p>
+            Created with <i class="fa fa-heart"></i> by
+            <a target="_blank" href="https://florin-pop.com">JR DEVS</a> - Derechos reservados, Mas informacion
+            <a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">aqui</a>.
+        </p>
+    </footer>
+    <!-- /.login-box -->
 
-<!-- jQuery 3 -->
-<script src="../public/js/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<!-- Bootstrap 3.3.7 -->
-<script src="../public/js/bootstrap.min.js"></script>
-<script src="../public/js/bootbox.min.js"></script>
-<script src="scripts/login.js"></script>
-<!-- iCheck -->
+    <!-- jQuery 3 -->
+    <script src="../public/js/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/bootbox.min.js"></script>
+    <script src="scripts/login.js"></script>
+    <!-- iCheck -->
 
 </body>
+
 </html>
