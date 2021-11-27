@@ -1,5 +1,5 @@
-<footer class="text-center main-footer" style="background-color: #818CF8;">
-    <strong>Implantacion de Sistemas <a href="#">Jr Devs</a> Copyright &copy; 2021 .</strong> Todo los derechos
+<footer class="text-center main-footer" style="background-color: #66806A;">
+    <strong>Implantacion de Sistemas <a href="https://github.com/grodrigo45/Sistema_Inventario.git">Jr Devs</a> Copyright &copy; 2021 .</strong> Todo los derechos
     reservados.
   </footer>
 
