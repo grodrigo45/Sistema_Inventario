@@ -1,0 +1,16 @@
+.footer0 {
+    background-color: cadetblue;
+    margin-left: 230px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+@media only screen and (max-with: 769px) {
+    .footer0 {
+        background-color: red;
+        margin: 0;
+        padding: 0;
+    }
+}
