@@ -8,7 +8,7 @@ if (strlen(session_id())<1)
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SISVentas | Escritorio</title>
+  <title>Sistema Tienda</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -36,15 +36,15 @@ if (strlen(session_id())<1)
     <!-- Logo -->
     <a href="escritorio.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>SISTEMA</b> VENTAS</span>
+      <span class="logo-mini"><b>Gestion</b> Tienda</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>SISTEMA</b> VENTAS</span>
+      <span class="logo-lg"><b>Gestion</b> Tienda</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">NAVEGACIÓM</span>
+        <span class="sr-only">NAVEGACIÓN</span>
       </a>
 
       <div class="navbar-custom-menu">
@@ -59,8 +59,8 @@ if (strlen(session_id())<1)
               <li class="user-header">
 
                 <p>
-                  Alex yosdado Pomahuacri -Desarrollo de software
-                  <small>Agosto 2021</small>
+                  JR DEVS, Desarrolladores
+                  <small>2021</small>
                 </p>
               </li>
               <!-- Menu Footer-->
@@ -197,7 +197,7 @@ if ($_SESSION['consultav']==1) {
         ?>     
             
         
-        <li><a href="https://www.facebook.com/profile.php?id=100010116841282"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">PDF</small></a></li>
+        <li><a href="https://drive.google.com/file/d/155sderNlwrQiNzhBtGKixuW6tlcM_NvN/view?usp=sharing"><i class="fa fa-question-circle"></i> <span>Ayuda</span><small class="label pull-right bg-yellow">PDF</small></a></li>
         
       </ul>
     </section>
