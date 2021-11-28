@@ -13,14 +13,15 @@ if ($_SESSION['ventas']==1) {
 //incluimos el archivo factura
 require('Factura.php');
 
+
 //establecemos los datos de la empresa
 $logo="logo.png";
 $ext_logo="png";
-$empresa="Tecnology Center S.A.C.";
-$documento="1074528547";
-$direccion="Calle los alpes 120";
-$telefono="958524158";
-$email="angelinos257@gmail.com";
+$empresa="Tiendita";
+$documento="";
+$direccion="colonia Sangenaro, Sonsonate";
+$telefono="2450-0000";
+$email="tiendita@gmail.com";
 
 //obtenemos los datos de la cabecera de la venta actual
 require_once "../modelos/Venta.php";
