@@ -115,7 +115,7 @@ switch ($_GET["op"]) {
 
 	$fetch=$rspta->fetch_object();
 	if (isset($fetch)) {
-		# Declaramos la variables de sesion
+		// Declaramos la variables de sesion
 		$_SESSION['idusuario']=$fetch->idusuario;
 		$_SESSION['nombre']=$fetch->nombre;
 		// $_SESSION['imagen']=$fetch->imagen;

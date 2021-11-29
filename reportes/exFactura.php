@@ -19,7 +19,7 @@ $logo="logo.png";
 $ext_logo="png";
 $empresa="Tiendita";
 $documento="";
-$direccion="colonia Sangenaro, Sonsonate";
+$direccion="colonia San Genaro, Sonsonate";
 $telefono="2450-0000";
 $email="tiendita@gmail.com";
 
@@ -96,12 +96,12 @@ $total=$regv->total_venta;
 $V=new EnLetras(); 
 $V->substituir_un_mil_por_mil = true;
 
- $con_letra=strtoupper($V->ValorEnLetras($total," SOLES")); 
+ $con_letra=strtoupper($V->ValorEnLetras($total," DOLARES")); 
 $pdf->addCadreTVAs("---".$con_letra);
 
 
 //mostramos el impuesto
-$pdf->addTVAs( $regv->impuesto, $regv->total_venta, "S/ ");
+$pdf->addTVAs( $regv->impuesto, $regv->total_venta, "$ ");
 $pdf->addCadreEurosFrancs("IGV"." $regv->impuesto %");
 $pdf->Output('Reporte de Venta' ,'I');
 

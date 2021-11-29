@@ -32,8 +32,8 @@ $reg=$rspta->fetch_object();
 //establecemos los datos de la empresa
 $empresa = "Mi Tiendita";
 $documento = "20506090-5";
-$direccion = "Avenida España";
-$telefono = "703502523";
+$direccion = "colonia San Genaro, Sonsonate";
+$telefono = "2450-0000";
 $email = "mitiendita@gmail.com";
 	 ?>
 <div class="zona_impresion">
@@ -90,7 +90,7 @@ $email = "mitiendita@gmail.com";
 		 	echo "<tr>";
 		 	echo "<td>".$regd->cantidad."</td>";
 		 	echo "<td>".$regd->articulo."</td>";
-		 	echo "<td align='right'>S/. ".$regd->subtotal."</td>";
+		 	echo "<td align='right'>$ . ".$regd->subtotal."</td>";
 		 	echo "</tr>";
 		 	$cantidad+=$regd->cantidad;
 		 } 
@@ -100,7 +100,7 @@ $email = "mitiendita@gmail.com";
 		<tr>
 			<td>&nbsp;</td>
 			<td align="right"><b>TOTAL:</b></td>
-			<td align="right"><b>S/. <?php echo $reg->total_venta; ?></b></td>
+			<td align="right"><b>$. <?php echo $reg->total_venta; ?></b></td>
 		</tr>
 		<tr>
 			<td colspan="3">N° de articulos: <?php echo $cantidad; ?> </td>
