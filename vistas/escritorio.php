@@ -72,7 +72,7 @@ if ($_SESSION['escritorio']==1) {
   <div class="small-box bg-aqua">
     <div class="inner">
       <h4 style="font-size: 17px;">
-        <strong>S/. <?php echo $totalc; ?> </strong>
+        <strong>$ <?php echo $totalc; ?> </strong>
       </h4>
       <p>Compras</p>
     </div>
@@ -86,7 +86,7 @@ if ($_SESSION['escritorio']==1) {
   <div class="small-box bg-green">
     <div class="inner">
       <h4 style="font-size: 17px;">
-        <strong>S/. <?php echo $totalv; ?> </strong>
+        <strong>$ <?php echo $totalv; ?> </strong>
       </h4>
       <p>Ventas</p>
     </div>
