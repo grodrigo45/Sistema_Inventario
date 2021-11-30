@@ -58,9 +58,9 @@ if ($_SESSION['ventas']==1) {
      <div class="form-group col-lg-6 col-md-6 col-xs-12">
       <label for="">Tipo Dcumento</label>
      <select class="form-control select-picker" name="tipo_documento" id="tipo_documento" required>
-       <option value="DNI">DNI</option>
-       <option value="RUC">RUC</option>
-       <option value="CEDULA">CEDULA</option>
+       <option value="DUI">DUI</option>
+       <option value="NIT">NIT</option>
+       <option value="PASAPORTE">PASAPORTE</option>
      </select>
     </div>
      <div class="form-group col-lg-6 col-md-6 col-xs-12">
